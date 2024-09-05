@@ -1,0 +1,10 @@
+.is-paragraph > br {
+    margin-top: 20px; /* Adjust the value as needed */
+    display: block; /* Ensures proper spacing */
+    content: '\A'; /* Injects a line break using generated content */
+    white-space: pre; /* Preserves whitespace */
+}
+
+.block-body {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
